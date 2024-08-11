@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect('mongodb+srv://sanalsajan916:T7Eu3g1auNHGIaIE@cluster0.ibrjg5n.mongodb.net/employeedb?retryWrites=true&w=majority&appName=Cluster0',{ useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://roslinamanue:PDcUzGJ8YxFgIHUa@cluster0.g8pbmvb.mongodb.net/employeedb?retryWrites=true&w=majority&appName=Cluster0')
   .then(() => {
     console.log("Connected to DB");
   })
